@@ -1,0 +1,8 @@
+USE Major ;
+GO
+
+CREATE PROCEDURE getAllUser
+AS
+BEGIN 
+    SELECT * FROM Users;
+END;

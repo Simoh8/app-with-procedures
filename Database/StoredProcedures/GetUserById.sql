@@ -1,0 +1,8 @@
+USE Major ;
+GO
+
+CREATE PROCEDURE getSingleUser(@Id VARCHAR(100))
+AS
+BEGIN
+SELECT * FROM Users WHERE id= @Id
+END

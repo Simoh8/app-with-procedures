@@ -1,0 +1,10 @@
+USE Major ;
+GO
+
+CREATE PROCEDURE DeleteUser
+@Id VARCHAR
+AS
+BEGIN
+DELETE FROM Users WHERE id = @Id
+END
+
